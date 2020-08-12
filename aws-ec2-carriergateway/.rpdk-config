@@ -1,0 +1,16 @@
+{
+    "typeName": "AWS::EC2::CarrierGateway",
+    "language": "java",
+    "runtime": "java8",
+    "entrypoint": "com.amazonaws.ec2.carriergateway.HandlerWrapper::handleRequest",
+    "testEntrypoint": "com.amazonaws.ec2.carriergateway.HandlerWrapper::testEntrypoint",
+    "settings": {
+        "namespace": [
+            "com",
+            "amazonaws",
+            "ec2",
+            "carriergateway"
+        ],
+        "protocolVersion": "2.0.0"
+    }
+}
